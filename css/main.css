@@ -1,5 +1,5 @@
 body {
-    background-image: url('img/main_page2.png');
+    background-image: url('/img/main_page2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -31,19 +31,4 @@ body {
 #copy{
     font-size: x    -small;
 }
-#linkedIn>a{
-    text-decoration: none;
-    color: #2b6405;
-    font-weight: bold;
-}
-#icons{
-    display: inline-flex;
-    position: absolute;
-    right: 10px;
-    padding: 5px;
-}
-.navbar .navbar-expand-lg .navbar-light .bg-light{
-    top: 0;
-    left: 0;
-    position: fixed;
-}
+#link
