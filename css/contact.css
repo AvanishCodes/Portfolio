@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width :600px) {
+    #map{
+        display: inline-flex;
+        padding: 4vw;
+    }
+
+    #map>#address, #map>#bing-map{
+        width: 40vw;
+        padding: 2vh 5vw 2vh 5vw;
+    }
+   
+}
+
+#bing-map{
+   margin-left: 8vw; 
+   margin-top: 6vh;
+}
+#address{
+    margin-top: 10vh;
+}
+
+#cord{
+    color: #876883;
+}
+
+#map>#address{
+    border: 2px solid blueviolet;
+    border-radius: 5%;
+    text-size-adjust: xx-large;
+    line-height: 2.5em;
+    padding-left: 3%;
+}
+
+.dark{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width :600px) {
+    #map{
+      
+        padding: 5vw;
+    }
+    #map>#address, #map>#bing-map{
+        width: 90vw;
+        padding: 2vh 5vw 2vh 5vw;
+    }
+    #map>#address{
+        border: 2px solid blueviolet;
+    }
+  }

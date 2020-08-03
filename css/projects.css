@@ -1,0 +1,24 @@
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    justify-content: space-evenly;
+}
+.table{
+    padding: 5%;
+}
+th, td {
+padding: 5px;
+text-align: center;
+}
+.caption{
+    color: blueviolet;
+    padding: 1%;
+    font-size: xx-large;
+    justify-content: space-evenly;
+    margin-left: 33vw;
+}
