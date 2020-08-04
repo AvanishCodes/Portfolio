@@ -32,3 +32,19 @@ body {
     font-size: x    -small;
 }
 #link
+#linkedIn>a{
+    text-decoration: none;
+    color: #2b6405;
+    font-weight: bold;
+}
+#icons{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    padding: 5px;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
